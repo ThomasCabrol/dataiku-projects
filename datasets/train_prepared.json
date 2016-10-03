@@ -1,7 +1,7 @@
 {
   "type": "Filesystem",
   "params": {
-    "connection": "filesystem_source",
+    "connection": "filesystem_managed",
     "path": "/TITANIC.train_prepared"
   },
   "checks": [],
@@ -135,6 +135,15 @@
   "flowOptions": {
     "rebuildBehavior": "NORMAL",
     "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "thomas.cabrol",
+      "displayName": "Thomas Cabrol",
+      "email": "thomas.cabrol@dataiku.com"
+    },
+    "lastModifiedOn": 1475495081640
   },
   "customMeta": {
     "kv": {}
