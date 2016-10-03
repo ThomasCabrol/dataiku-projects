@@ -1,0 +1,67 @@
+{
+  "inputDatasetSmartName": "train_prepared",
+  "script": {
+    "steps": [],
+    "tags": [],
+    "columnsSelection": {
+      "mode": "ALL"
+    },
+    "coloring": {
+      "scheme": "MEANING_AND_STATUS",
+      "individualColumns": [],
+      "valueColoringMode": "HASH"
+    },
+    "analysisColumnData": {
+      "Survived": {
+        "meaning": "Text"
+      },
+      "Pclass": {
+        "meaning": "Text"
+      },
+      "Ticket": {
+        "meaning": "Text"
+      }
+    },
+    "explorationSampling": {
+      "selection": {
+        "samplingMethod": "HEAD_SEQUENTIAL",
+        "partitionSelectionMethod": "ALL",
+        "maxRecords": 10000,
+        "targetRatio": 0.02
+      },
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "vizSampling": {
+      "autoRefreshSample": false,
+      "_refreshTrigger": 0
+    },
+    "exploreUIParams": {},
+    "globalSearchQuery": "",
+    "explorationFilters": [],
+    "previewMode": "ALL_ROWS",
+    "charts": [],
+    "chartsEngine": "LINO"
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "thomas.cabrol",
+      "displayName": "Thomas Cabrol"
+    },
+    "lastModifiedOn": 1475494267352
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "thomas.cabrol",
+      "displayName": "Thomas Cabrol"
+    },
+    "lastModifiedOn": 1475494267352
+  },
+  "name": "Analyze train_prepared",
+  "tags": [],
+  "checklists": {
+    "checklists": []
+  }
+}
