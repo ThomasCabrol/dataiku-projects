@@ -10,6 +10,7 @@
     "disableAutomaticTriggers": false
   },
   "name": "Titanic",
+  "description": "This very simple project shows how Dataiku DSS can be used to build a simple predictive model using advanced machine learning algorithms in a few clicks, without the need for coding. \n\nThis example is based on Titanic dataset, and aims at predicting who were the most likely to survive the accident based on a few set of characteristics.",
   "shortDesc": "Predicting who will survive the Titanic accident",
   "checklists": {
     "checklists": [
