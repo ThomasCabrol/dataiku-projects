@@ -1,0 +1,11 @@
+{
+  "backendType": "PY_MEMORY",
+  "sparkPreparedDFStorageLevel": "MEMORY_AND_DISK",
+  "sparkRepartitionNonHDFS": 1,
+  "overrideModelSpecifiedThreshold": false,
+  "forcedClassifierThreshold": 0.0,
+  "outputProbaPercentiles": false,
+  "outputProbabilities": true,
+  "filterInputColumns": false,
+  "keptInputColumns": []
+}

@@ -1,0 +1,50 @@
+{
+  "type": "prediction_scoring",
+  "inputs": {
+    "model": {
+      "items": [
+        {
+          "ref": "bIh9q7ql",
+          "deps": []
+        }
+      ]
+    },
+    "main": {
+      "items": [
+        {
+          "ref": "test_prepared",
+          "deps": []
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "main": {
+      "items": [
+        {
+          "ref": "test_scored",
+          "appendMode": false
+        }
+      ]
+    }
+  },
+  "neverRecomputeExistingPartitions": false,
+  "optionalDependencies": false,
+  "checklists": {
+    "checklists": []
+  },
+  "tags": [],
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "thomas.cabrol",
+      "displayName": "Thomas Cabrol",
+      "email": "thomas.cabrol@dataiku.com"
+    },
+    "lastModifiedOn": 1475494414696
+  },
+  "customMeta": {
+    "kv": {}
+  },
+  "redispatchPartitioning": false
+}
