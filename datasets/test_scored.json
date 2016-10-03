@@ -1,7 +1,7 @@
 {
   "type": "Filesystem",
   "params": {
-    "connection": "filesystem_source",
+    "connection": "filesystem_managed",
     "path": "/TITANIC.test_scored"
   },
   "checks": [],
@@ -86,13 +86,13 @@
     "crossProjectBuildBehavior": "DEFAULT"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "thomas.cabrol",
       "displayName": "Thomas Cabrol",
       "email": "thomas.cabrol@dataiku.com"
     },
-    "lastModifiedOn": 1475494423575
+    "lastModifiedOn": 1475495111634
   },
   "customMeta": {
     "kv": {}
