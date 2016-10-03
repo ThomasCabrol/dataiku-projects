@@ -1,0 +1,61 @@
+{
+  "projectType": "REGULAR",
+  "owner": "thomas.cabrol",
+  "permissions": [],
+  "tutorialProject": false,
+  "settings": {
+    "flowAnchorSourcesAndSinks": true,
+    "exposedComputables": [],
+    "gitCommitMode": "AUTO",
+    "disableAutomaticTriggers": false
+  },
+  "name": "Titanic",
+  "shortDesc": "The project *Titanic* was created by Thomas Cabrol on Oct 03rd 2016",
+  "checklists": {
+    "checklists": [
+      {
+        "title": "Your new project\u0027s Todo",
+        "createdOn": 0,
+        "items": [
+          {
+            "done": true,
+            "text": "Create the project",
+            "createdOn": 1475494082704,
+            "createdBy": "thomas.cabrol",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Set a project image (click on the color next to the project title)",
+            "createdOn": 1475494082704,
+            "createdBy": "thomas.cabrol",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Import your [first dataset](datasets/new/)",
+            "createdOn": 1475494082704,
+            "createdBy": "thomas.cabrol",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Invite [other users](settings/) to collaborate",
+            "createdOn": 1475494082704,
+            "createdBy": "thomas.cabrol",
+            "stateChangedOn": 0
+          },
+          {
+            "done": false,
+            "text": "Organize your work by replacing this with a real todo",
+            "createdOn": 1475494082704,
+            "createdBy": "thomas.cabrol",
+            "stateChangedOn": 0
+          }
+        ]
+      }
+    ]
+  },
+  "tags": [],
+  "projectStatus": "Sandbox"
+}
