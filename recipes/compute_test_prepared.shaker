@@ -81,6 +81,7 @@
     }
   ],
   "tags": [],
+  "origin": "PREPARE_RECIPE",
   "columnsSelection": {
     "mode": "ALL"
   },

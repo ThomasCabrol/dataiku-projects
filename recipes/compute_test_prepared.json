@@ -31,13 +31,13 @@
   },
   "tags": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "thomas.cabrol",
       "displayName": "Thomas Cabrol",
       "email": "thomas.cabrol@dataiku.com"
     },
-    "lastModifiedOn": 1475494230838
+    "lastModifiedOn": 1475494235512
   },
   "customMeta": {
     "kv": {}
