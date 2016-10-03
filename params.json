@@ -4,7 +4,7 @@
   "permissions": [],
   "tutorialProject": false,
   "settings": {
-    "flowAnchorSourcesAndSinks": true,
+    "flowAnchorSourcesAndSinks": false,
     "exposedComputables": [],
     "gitCommitMode": "AUTO",
     "disableAutomaticTriggers": false
