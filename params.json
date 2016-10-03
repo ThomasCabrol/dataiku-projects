@@ -10,7 +10,7 @@
     "disableAutomaticTriggers": false
   },
   "name": "Titanic",
-  "shortDesc": "The project *Titanic* was created by Thomas Cabrol on Oct 03rd 2016",
+  "shortDesc": "Predicting who will survive the Titanic accident",
   "checklists": {
     "checklists": [
       {
