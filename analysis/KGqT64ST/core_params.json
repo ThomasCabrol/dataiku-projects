@@ -1,7 +1,87 @@
 {
   "inputDatasetSmartName": "train",
   "script": {
-    "steps": [],
+    "steps": [
+      {
+        "type": "FilterOnBadType",
+        "params": {
+          "type": "LongMeaning",
+          "action": "CLEAR_CELL",
+          "booleanMode": "AND",
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "Age"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "ColumnSplitter",
+        "params": {
+          "inCol": "Name",
+          "separator": ", ",
+          "outColPrefix": "Name_",
+          "keepEmptyChunks": false,
+          "target": "COLUMNS",
+          "limitOutput": true,
+          "limit": 1,
+          "startFrom": "end"
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "ColumnSplitter",
+        "params": {
+          "inCol": "Name_0",
+          "separator": " ",
+          "outColPrefix": "NName_",
+          "keepEmptyChunks": false,
+          "target": "COLUMNS",
+          "limitOutput": true,
+          "limit": 1,
+          "startFrom": "beginning"
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "ColumnRenamer",
+        "params": {
+          "renamings": [
+            {
+              "from": "NName_0",
+              "to": "Title"
+            }
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      },
+      {
+        "type": "ColumnsSelector",
+        "params": {
+          "keep": false,
+          "appliesTo": "SINGLE_COLUMN",
+          "columns": [
+            "Name_0"
+          ]
+        },
+        "metaType": "PROCESSOR",
+        "preview": false,
+        "disabled": false,
+        "alwaysShowComment": false
+      }
+    ],
     "tags": [],
     "columnsSelection": {
       "mode": "ALL"
@@ -11,7 +91,17 @@
       "individualColumns": [],
       "valueColoringMode": "HASH"
     },
-    "analysisColumnData": {},
+    "analysisColumnData": {
+      "Survived": {
+        "meaning": "Text"
+      },
+      "Pclass": {
+        "meaning": "Text"
+      },
+      "Ticket": {
+        "meaning": "Text"
+      }
+    },
     "explorationSampling": {
       "selection": {
         "samplingMethod": "HEAD_SEQUENTIAL",
@@ -26,7 +116,9 @@
       "autoRefreshSample": false,
       "_refreshTrigger": 0
     },
-    "exploreUIParams": {},
+    "exploreUIParams": {
+      "autoRefresh": true
+    },
     "globalSearchQuery": "",
     "explorationFilters": [],
     "previewMode": "ALL_ROWS",
@@ -34,12 +126,12 @@
     "chartsEngine": "LINO"
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "thomas.cabrol",
       "displayName": "Thomas Cabrol"
     },
-    "lastModifiedOn": 1475494125264
+    "lastModifiedOn": 1475494211173
   },
   "creationTag": {
     "versionNumber": 0,
